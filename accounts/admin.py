@@ -7,7 +7,7 @@ from .models import User
 class CustomUserAdmin(UserAdmin):
     add_form = UserCreationForm
 
-    list_display = ('email', 'phone_number', 'is_admin')
+    list_display = ('email', 'username' , 'phone_number', 'is_admin')
     list_filter = ('is_admin',)
     fieldsets = (
         (None, {'fields': ('email', 'password')}),

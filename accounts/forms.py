@@ -10,7 +10,7 @@ class UserCreationForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ('email', 'phone_number')
+        fields = ('email', 'username', 'phone_number')
 
     def clean_password2(self):
         # Убедимся, что две записи пароля совпадают
