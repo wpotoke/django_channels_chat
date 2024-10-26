@@ -6,7 +6,7 @@
 - [Технологии](#технологии)
 - [Начало работы](#Начало_работы)
 - [Команда проекта](#Команда_проекта)
-
+ 
 ## Технологии
   [Django Channels](https://channels.readthedocs.io/en/latest/)
   [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
